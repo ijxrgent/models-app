@@ -635,7 +635,7 @@ export default function ModelSelector() {
 
       <footer className="mt-12 text-center text-purple-400 text-sm border-t border-white/10 pt-6">
         <p>
-          © 2024 - Evaluación de Calidad de Software | YouTube como caso de
+          © 2027 - Evaluación de Calidad de Software | YouTube como caso de
           estudio
         </p>
         <p className="text-xs mt-2">Modelos: McCall | Boehm | FURPS</p>
