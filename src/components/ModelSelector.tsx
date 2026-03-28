@@ -41,12 +41,12 @@ const CustomRadarTooltip = ({ active, payload }: any) => {
           {payload[0].payload.subject}
         </p>
         <p className="text-emerald-400 text-xl font-bold">
-          {payload[0].value} / 5
+          {payload[0].value} / 4
         </p>
         <div className="w-full bg-white/20 rounded-full h-1.5 mt-2">
           <div
             className="bg-gradient-to-r from-purple-400 to-emerald-400 h-1.5 rounded-full"
-            style={{ width: `${(payload[0].value / 5) * 100}%` }}
+            style={{ width: `${(payload[0].value / 4) * 100}%` }}
           />
         </div>
       </div>
@@ -348,7 +348,7 @@ export default function ModelSelector() {
                           />
                           <PolarRadiusAxis
                             angle={30}
-                            domain={[0, 5]}
+                            domain={[0, 4]}
                             stroke="#c4b5fd"
                             tick={{ fill: '#c4b5fd' }}
                           />
