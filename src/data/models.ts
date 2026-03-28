@@ -78,7 +78,7 @@ export const models = {
             '¿Las funciones implementadas cumplen con los requisitos?',
             '¿Se evitan errores en la ejecución?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'YouTube cumple excepcionalmente con todas las funciones requeridas.',
         },
@@ -122,7 +122,7 @@ export const models = {
             '¿Funciona en múltiples plataformas?',
             '¿Puede migrarse fácilmente?',
           ],
-          score: 3.5,
+          score: 3.48,
           observations:
             'Excelente portabilidad: disponible en web, iOS, Android, TV, consolas, etc.',
         },
@@ -133,7 +133,7 @@ export const models = {
             '¿Los componentes pueden reutilizarse?',
             '¿La API permite integración?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'Alta reusabilidad mediante su API pública y componentes embebibles.',
         },
@@ -144,7 +144,7 @@ export const models = {
             '¿Se integra con otros sistemas?',
             '¿Soporta estándares abiertos?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'Excelente interoperabilidad: integración con redes sociales, reproductores externos.',
         },
@@ -155,7 +155,7 @@ export const models = {
             '¿Es fácil de mantener y actualizar?',
             '¿Permite correcciones ágiles?',
           ],
-          score: 3.5,
+          score: 3.48,
           observations:
             'Google mantiene actualizaciones continuas de manera efectiva.',
         },
@@ -166,7 +166,7 @@ export const models = {
             '¿Puede adaptarse a nuevos requisitos?',
             '¿Es fácil extender funcionalidades?',
           ],
-          score: 3.5,
+          score: 3.48,
           observations:
             'Alta flexibilidad con actualizaciones frecuentes y nuevas funciones.',
         },
@@ -212,7 +212,7 @@ export const models = {
             '¿Es compatible con múltiples sistemas operativos?',
             '¿Se adapta a diferentes tamaños de pantalla?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'Excelente portabilidad: disponible en prácticamente todos los dispositivos.',
         },
@@ -223,7 +223,7 @@ export const models = {
             '¿Requiere dependencias externas?',
             '¿Funciona de forma autónoma?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'La aplicación es autónoma en dispositivos móviles y web.',
         },
@@ -235,7 +235,7 @@ export const models = {
             '¿Los resultados son precisos?',
             '¿La información mostrada es correcta?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Alta precisión en recomendaciones y métricas.',
         },
         {
@@ -245,7 +245,7 @@ export const models = {
             '¿Las características están completas?',
             '¿Faltan funcionalidades clave?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'Funciones completas para reproducción, subida y gestión de contenido.',
         },
@@ -256,7 +256,7 @@ export const models = {
             '¿Maneja adecuadamente los fallos?',
             '¿Se recupera de errores?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Sistema robusto con buena recuperación ante fallos.',
         },
         {
@@ -266,7 +266,7 @@ export const models = {
             '¿La interfaz es consistente?',
             '¿Los menús mantienen coherencia?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Diseño consistente en todas las plataformas.',
         },
         // Eficiencia
@@ -277,7 +277,7 @@ export const models = {
             '¿Los tiempos de carga son óptimos?',
             '¿La interacción es fluida?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'Buena velocidad de respuesta, aunque depende de la conexión.',
         },
@@ -288,7 +288,7 @@ export const models = {
             '¿Consumo de batería adecuado?',
             '¿Uso eficiente del CPU?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Consumo de batería mejorable en dispositivos móviles.',
         },
         {
@@ -298,7 +298,7 @@ export const models = {
             '¿Tiene subtítulos y audiodescripción?',
             '¿Es accesible para todos?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'Ofrece subtítulos automáticos y opciones de accesibilidad.',
         },
@@ -310,7 +310,7 @@ export const models = {
             '¿Recupera datos tras fallos de red?',
             '¿Persiste información correctamente?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Mejorable en manejo de desconexiones repentinas.',
         },
         {
@@ -320,7 +320,7 @@ export const models = {
             '¿Soporta teclado, mouse, voz?',
             '¿Es compatible con controles alternativos?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Soporta múltiples formas de interacción.',
         },
         {
@@ -330,7 +330,7 @@ export const models = {
             '¿Comparte información con otras apps?',
             '¿Tiene integración con redes?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Excelente capacidad de comunicación y compartición.',
         },
         // Facilidad de Prueba
@@ -341,7 +341,7 @@ export const models = {
             '¿No requiere instrucciones adicionales?',
             '¿La interfaz es auto-explicativa?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Interfaz intuitiva y auto-descriptiva.',
         },
         {
@@ -351,7 +351,7 @@ export const models = {
             '¿La jerarquía es clara?',
             '¿La navegación es coherente?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Excelente estructuración de contenido.',
         },
         // Facilidad de Entendimiento
@@ -362,7 +362,7 @@ export const models = {
             '¿Es conciso en su presentación?',
             '¿Evita información redundante?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Algo de redundancia en recomendaciones y contenido.',
         },
         {
@@ -372,7 +372,7 @@ export const models = {
             '¿Los elementos visuales son claros?',
             '¿La tipografía es adecuada?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Buena legibilidad en todas las plataformas.',
         },
         // Modificabilidad
@@ -383,7 +383,7 @@ export const models = {
             '¿La estructura es lógica?',
             '¿Permite cambios fácilmente?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Estructura mejorable en ciertas secciones.',
         },
         {
@@ -393,7 +393,7 @@ export const models = {
             '¿Mantiene calidad al escalar?',
             '¿Soporta crecimiento sin pérdida?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Excelente escalabilidad demostrada a nivel global.',
         },
       ],
@@ -427,7 +427,7 @@ export const models = {
             '¿Las características implementadas son completas?',
             '¿Cumple con los requisitos funcionales?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Amplio conjunto de características completas.',
         },
         {
@@ -437,7 +437,7 @@ export const models = {
             '¿Es versátil en su aplicación?',
             '¿Se adapta a diferentes necesidades?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Alta generalidad que cubre múltiples casos de uso.',
         },
         {
@@ -447,7 +447,7 @@ export const models = {
             '¿Protege adecuadamente la información?',
             '¿Previene vulnerabilidades?',
           ],
-          score: 3,
+          score: 3.0,
           observations:
             'Seguridad adecuada pero con antecedentes de vulnerabilidades.',
         },
@@ -459,7 +459,7 @@ export const models = {
             '¿Permite evaluar funcionalidades?',
             '¿Existe documentación de prueba?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Capacidad de prueba limitada para usuarios finales.',
         },
         {
@@ -469,7 +469,7 @@ export const models = {
             '¿Hay opciones de configuración?',
             '¿Se adapta a preferencias del usuario?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Amplias opciones de configuración y personalización.',
         },
         {
@@ -479,7 +479,7 @@ export const models = {
             '¿Funciona en diferentes navegadores?',
             '¿Soporta distintos sistemas operativos?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Excelente compatibilidad multiplataforma.',
         },
         {
@@ -489,7 +489,7 @@ export const models = {
             '¿No requiere configuración compleja?',
             '¿Está disponible inmediatamente?',
           ],
-          score: 4,
+          score: 4.0,
           observations:
             'Instalación simple o uso inmediato sin instalación en web.',
         },
@@ -501,7 +501,7 @@ export const models = {
             '¿La severidad de errores es baja?',
             '¿El sistema es estable?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Fallos ocasionales, generalmente de baja severidad.',
         },
         {
@@ -511,7 +511,7 @@ export const models = {
             '¿Las salidas coinciden con lo esperado?',
             '¿Hay errores en la información mostrada?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Alta exactitud en reproducción y métricas.',
         },
         {
@@ -521,7 +521,7 @@ export const models = {
             '¿Se anticipa a las necesidades?',
             '¿Las recomendaciones son acertadas?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Algoritmos de recomendación generalmente acertados.',
         },
         // Rendimiento
@@ -532,7 +532,7 @@ export const models = {
             '¿La interfaz es amigable?',
             '¿Facilita la interacción?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Excelente consideración de factores humanos.',
         },
         {
@@ -542,7 +542,7 @@ export const models = {
             '¿La interfaz es visualmente agradable?',
             '¿Sigue tendencias de diseño?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Diseño funcional pero mejorable estéticamente.',
         },
         {
@@ -552,7 +552,7 @@ export const models = {
             '¿Los patrones se repiten?',
             '¿Hay coherencia visual?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Alta consistencia en toda la interfaz.',
         },
         {
@@ -562,7 +562,7 @@ export const models = {
             '¿Los usuarios encuentran ayuda?',
             '¿Los centros de ayuda son útiles?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Documentación disponible pero mejorable en claridad.',
         },
         // Soporte
@@ -573,7 +573,7 @@ export const models = {
             '¿La carga de videos es eficiente?',
             '¿Los tiempos de respuesta son adecuados?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Velocidad buena pero depende de ancho de banda.',
         },
         {
@@ -583,7 +583,7 @@ export const models = {
             '¿Los tiempos de carga son aceptables?',
             '¿Hay latencia perceptible?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Tiempos de respuesta variables según la red.',
         },
         {
@@ -593,7 +593,7 @@ export const models = {
             '¿Consumo de batería adecuado?',
             '¿Uso eficiente de memoria?',
           ],
-          score: 2,
+          score: 2.0,
           observations:
             'Consumo de recursos mejorable, especialmente en dispositivos móviles.',
         },
@@ -604,7 +604,7 @@ export const models = {
             '¿La experiencia de usuario es fluida?',
             '¿Hay cuellos de botella?',
           ],
-          score: 3,
+          score: 3.0,
           observations: 'Rendimiento general aceptable con mejoras pendientes.',
         },
         {
@@ -614,7 +614,7 @@ export const models = {
             '¿Los usuarios logran sus objetivos?',
             '¿La plataforma es efectiva para creadores y espectadores?',
           ],
-          score: 4,
+          score: 4.0,
           observations: 'Altamente eficaz en cumplir su propósito principal.',
         },
       ],
@@ -636,12 +636,11 @@ export const isFurpsDetails = (details: any): details is FurpsDetails => {
 }
 
 // Calcular resultados automáticamente
-// Calcular resultados automáticamente
 export const getModelResults = (modelKey: ModelKey) => {
   const model = models[modelKey]
   const criteria = model.evaluation.criteria
   const totalScore = criteria.reduce((sum, c) => sum + c.score, 0)
-  const maxScore = criteria.length * 4
+  const maxScore = criteria.length * 4 // Escala de 0 a 4
   const percentage = Math.round((totalScore / maxScore) * 100)
 
   let interpretation = ''
